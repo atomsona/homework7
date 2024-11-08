@@ -1,0 +1,21 @@
+.rating-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2d2d2d;
+    color: #888;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .rating-button.selected {
+    background-color: #7a7a7a;
+    color: #fff;
+  }
+  
+  .rating-button:hover {
+    background-color: #ff8c00;
+    color: #fff;
+  }

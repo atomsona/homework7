@@ -1,0 +1,55 @@
+.rating-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+  }
+  
+  .rating-card {
+    background-color: #252d37;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+  }
+  
+  .rating-card h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  
+  .rating-card p {
+    font-size: 1rem;
+    color: #a0aec0;
+    margin-bottom: 25px;
+  }
+  
+  .rating-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:disabled {
+    background-color: #4a5568;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:enabled {
+    background-color: #ff7300;
+  }
