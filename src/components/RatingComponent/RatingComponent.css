@@ -53,3 +53,25 @@
   .submit-button:hover:enabled {
     background-color: #ff7300;
   }
+  .rating {
+    background-color: #3a3d5a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }  
+
+  .rating-card h2 {
+    color: #f5f5f7;
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+  }
+  
+  .rating-card p {
+    color: #c7c7d1;
+    font-size: 0.9rem;
+    margin: 0 0 20px;
+    line-height: 1.6;
+  }

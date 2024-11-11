@@ -1,54 +1,72 @@
 .thank-you-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #252d37;
-    padding: 30px;
-    border-radius: 15px;
-    width: 350px;
-    max-width: 100%;
-    color: #ffffff;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .illustration {
-    width: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .selected-rating {
-    background-color: #4a5568;
-    color: #ffb630;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  .thank-you-message h3 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-  }
-  
-  .thank-you-message p {
-    font-size: 1rem;
-    color: #a0aec0;
-  }
-  
-  .comeback-button {
-    margin-top: 20px;
-    padding: 10px 16px;
-    background-color: #ff8c00;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .comeback-button:hover {
-    background-color: #ff7300;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #252d37;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  max-width: 100%;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.illustration {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.selected-rating {
+  background-color: #4a5568;
+  color: #ffb630;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.thank-you-message h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.thank-you-message p {
+  font-size: 1rem;
+  color: #a0aec0;
+}
+
+.comeback-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comeback-button:hover {
+  background-color: #ff7300;
+}
+.illustration {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.thank-you-message {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: #1c1c1e;
+}
+
+.illustration {
+  border: none;
+  box-shadow: none;
+}
+

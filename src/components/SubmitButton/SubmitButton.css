@@ -17,3 +17,11 @@
   .submit-button:hover:not(.disabled) {
     background-color: #ff7300;
   }
+  .submit-button {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #ff751a;
+  }
+  
+  
